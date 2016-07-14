@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MyProject.uproject" />
+		<Filter Include="Intermediate">
+			<UniqueIdentifier>{42979BBF-BB61-4FFF-96BA-50E90F12B80F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Intermediate\Source">
+			<UniqueIdentifier>{8DEED5F3-AD6C-4382-9858-6BD6DDFBCE0C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\Source\MyProject.Target.cs">
+			<Filter>Intermediate\Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{60A41E32-B3A0-47BB-AB05-87CEDC40F760}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+	</ItemGroup>
+</Project>
